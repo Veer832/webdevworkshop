@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample Webpage</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .container {
+    display: flex;
+    flex-grow: 1;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .left-panel {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-right: 2px solid black;
+    flex-basis: 250px;
+  }
+
+  main {
+    flex-grow: 1;
+    padding: 1rem;
+  }
+  .card{
+    display: flexbox;
+    border: #333;
+    border-width: 20px;
+
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Webpage</h1>
+    <button>create device</button>
+    <button>delete device</button>
+    <button>update device</button>
+  </header>
+  <div class="container">
+    <div class="left-panel">
+      <h2>Left Panel</h2>
+      <p>This is the left panel content.</p>
+    </div>
+    <main>
+      <h2>Main Content</h2>
+      <p>This is the main content of the webpage.</p>
+      <div class="card">
+        device 1
+      </div>
+      <div class="class">
+        device 2
+      </div>
+      <div class="card">
+        device 3
+      </div>
+    </main>
+  </div>
+  <footer>
+    <p>&copy; 2023 My Webpage. All rights reserved.</p>
+  </footer>
+</body>
+</html>
